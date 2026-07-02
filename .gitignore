@@ -1,0 +1,50 @@
+# =========================
+# Secrets & Environment Variables
+# =========================
+.env
+.env.*
+*.local
+
+package-lock.json
+package.json
+
+
+# =========================
+# Node.js & Frontend (Vite/React)
+# =========================
+node_modules/
+dist/
+dist-ssr/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Python & Backend (FastAPI)
+# =========================
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+develop-eggs/
+eggs/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+
+# =========================
+# Editor & OS specific
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
